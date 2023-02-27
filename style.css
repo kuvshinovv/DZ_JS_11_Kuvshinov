@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&family=Open+Sans:wght@600;800&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,900&family=Open+Sans:wght@600;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+    
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+
+
+
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1140px;
+}
+.box3Zagolovok1{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #222222
+}
+.box3Zagolovok2{
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #9F9F9F;
+    margin-bottom: 48px;
+}
+
+.box3grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 49px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.box3gridcard{
+    background: #F8F8F8;
+}
+
+.box3img{
+    display: flex;
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    background: #F7E4E2;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.box3img_fon_and_boxcart{
+    position: relative;
+    width: 360px;
+    height: 420px;
+    margin-bottom: 25px;
+    opacity: 0;
+}
+.box3img_fon_and_boxcart:hover{
+    position: relative;
+    width: 360px;
+    height: 420px;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+
+.box3img1_addtocart_boxcart{
+    position: absolute;
+    width: 138px;
+    height: 43px;
+    border: 1px solid #FFFFFF;
+    top: 45%;
+    left: 30%;
+    opacity: 1;
+}
+.box3img_fon{
+    position: absolute; 
+    display: inline;
+    width: 360px;
+    height: 420px; 
+    opacity: 0.7;
+}
+.addtocadt_img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 20%;
+    left: 10%;
+    opacity: 1;
+}
+.addtocadt_text{
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    top: 25%;
+    left: 35%;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.box3gridtitle{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 13px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.box3griddescription{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-bottom: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.box3gridprice{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-left: 18px;
+    margin-right: 18px;
+    /* margin-bottom: 16px; */
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
